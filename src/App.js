@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Footer from './footer';
-import Header from './header';
-import HomePage from './homepage';
 
 class App extends Component {
   render() {
