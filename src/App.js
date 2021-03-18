@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import HomePage from './components/homepage';
 
 class App extends Component {
   render() {
     return (
       <div>
-        home page content goes here
+        <HomePage />
       </div>
     );
   }
