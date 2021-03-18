@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from './mediaFiles/homepage_background.jpg';
+import Background from '././mediaFiles/homepage_background.jpg';
 
 const HomePage = () =>{  
     return (
