@@ -9,6 +9,9 @@ const HomePage = () =>{
               <img src={Background}></img>
           </div>
           <p>check home page parallex effect on the website hopefully this works as expected.</p>
+          <div class="parallax">
+              <img src={Background}></img>
+          </div>
       </div>  
     )
 };
