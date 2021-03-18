@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import Background from '../mediaFiles/homepage_background.jpg';
 
 const HomePage = () =>{  
