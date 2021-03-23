@@ -56,8 +56,13 @@
 }
 
 ul{
+  background-color: transparent;
   list-style-type: none;
   width: 400px;
 }
+ li{
+   padding: 20px;
+   background-image:  ;
+ }
 
-
+ 

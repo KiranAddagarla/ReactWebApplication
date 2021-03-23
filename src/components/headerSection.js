@@ -16,10 +16,10 @@ const HeaderSection = () =>{
                             <div>
                                 <ul>
                                     <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon>ABOUT ME</li>
-                                    <li>PROFESSIONAL SUMMARY</li>
-                                    <li>TECHNOLOGICAL EXPERTISE</li>
-                                    <li>PROJECTS HANDLED</li>
-                                    <li>CONTACT</li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>PROFESSIONAL SUMMARY</li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>TECHNOLOGICAL EXPERTISE</li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>PROJECTS HANDLED</li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>CONTACT</li>
                                 </ul>
                             </div>
                         </td>
