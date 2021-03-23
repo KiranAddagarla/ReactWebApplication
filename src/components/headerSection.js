@@ -1,5 +1,6 @@
 import React from 'react';
 import mypicture from '../mediaFiles/Chandra Kiran.jpeg';
+import LabelImportantRoundedIcon from '@material-ui/icons/LabelImportantRounded';
 import '../App.css';
 
 const HeaderSection = () =>{  
