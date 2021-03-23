@@ -38,7 +38,8 @@
 }
 
 .headerSection {
-  background-color: #61dafb;
+  background-color: wheat;
+  padding: 50px;
   width: 100%;
 
 }
@@ -49,10 +50,14 @@
 }
 
 .headerSection.headerContainer.myPicture{
-  width: 100px;
-  height: 100px;
+  width: 600px;
   border-radius: 8px;
   padding: auto;
+}
+
+ul{
+  list-style-type: none;
+  width: 400px;
 }
 
 
