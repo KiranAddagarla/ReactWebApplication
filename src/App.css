@@ -43,12 +43,12 @@
 
 }
 
-.headerContainer{
+.headerSection.headerContainer{
   padding: 40px;
   background-color: wheat;
 }
 
-.myPicture{
+.headerSection.headerContainer.myPicture{
   width: 100px;
   height: 100px;
   border-radius: 8px;

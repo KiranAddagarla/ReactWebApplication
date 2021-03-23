@@ -6,10 +6,10 @@ const HeaderSection = () =>{
     return (
         <header>
             <div className = 'headerSection'>                
-                <table className = 'headerContainer'>
+                <table className = 'headerSection headerContainer'>
                     <tr>
                         <td>
-                            <img className = 'myPicture' src = {mypicture} />
+                            <img className = 'headerSection headerContainer myPicture' src = {mypicture} />
                         </td>
                         <td>
                             <div>
