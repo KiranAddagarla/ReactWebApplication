@@ -1,11 +1,12 @@
 import React from 'react';
-import mypicture from '../mediaFiles/Chandra Kiran.jpeg'
+import mypicture from '../mediaFiles/Chandra Kiran.jpeg';
+import '../App.css';
 
 const HeaderSection = () =>{  
     return (
         <header>
-            <div className = 'headerSection'>
-                <table>
+            <div className = 'headerSection'>                
+                <table className = 'headerContainer'>
                     <tr>
                         <td>
                             <img src = {mypicture} />

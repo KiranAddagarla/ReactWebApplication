@@ -37,3 +37,13 @@
   }
 }
 
+.headerSection {
+  background-color: #61dafb;
+}
+
+.headerSection.headerContainer{
+  background-color: wheat;
+}
+
+}
+
