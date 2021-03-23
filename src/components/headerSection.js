@@ -15,7 +15,7 @@ const HeaderSection = () =>{
                         <td>
                             <div>
                                 <ul>
-                                    <li>ABOUT ME</li>
+                                    <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon>ABOUT ME</li>
                                     <li>PROFESSIONAL SUMMARY</li>
                                     <li>TECHNOLOGICAL EXPERTISE</li>
                                     <li>PROJECTS HANDLED</li>
