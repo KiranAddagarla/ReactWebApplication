@@ -19,7 +19,7 @@ const HeaderSection = () =>{
                                     <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROFESSIONAL SUMMARY</label></li>
                                     <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>TECHNOLOGICAL EXPERTISE</label></li>
                                     <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROJECTS HANDLED</label></li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>CONTACT</label></li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>CONTACT ME</label></li>
                                 </ul>
                             </div>
                         </td>
