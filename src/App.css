@@ -72,5 +72,7 @@ LabelImportantRoundedIcon{
 label{
   position: absolute;
   padding-left: 10px;
+  font-size: larger;
+  font-weight: 600;
 }
 
