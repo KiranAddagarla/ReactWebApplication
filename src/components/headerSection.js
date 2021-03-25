@@ -15,11 +15,11 @@ const HeaderSection = () =>{
                         <td>
                             <div>
                                 <ul>
-                                    <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon>ABOUT ME</li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>PROFESSIONAL SUMMARY</li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>TECHNOLOGICAL EXPERTISE</li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>PROJECTS HANDLED</li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon>CONTACT</li>
+                                    <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>ABOUT ME</label></li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROFESSIONAL SUMMARY</label></li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>TECHNOLOGICAL EXPERTISE</label></li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROJECTS HANDLED</label></li>
+                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>CONTACT</label></li>
                                 </ul>
                             </div>
                         </td>
