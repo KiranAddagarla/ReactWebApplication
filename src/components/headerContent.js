@@ -5,11 +5,11 @@ import '../App.css';
 const HeaderContent = () => {
     return(
         <ul>
-            <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon><button><label>ABOUT ME</label></button></li>
-            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><button><label>PROFESSIONAL SUMMARY</label></button></li>
-            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><button><label>TECHNOLOGICAL EXPERTISE</label></button></li>
-            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><button><label>PROJECTS HANDLED</label></button></li>
-            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><button><label>CONTACT ME</label></button></li>
+            <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon><a href = '#' ><label>ABOUT ME</label></a></li>
+            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a><label>PROFESSIONAL SUMMARY</label></a></li>
+            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a><label>TECHNOLOGICAL EXPERTISE</label></a></li>
+            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a><label>PROJECTS HANDLED</label></a></li>
+            <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a><label>CONTACT ME</label></a></li>
         </ul>
     )
 };
