@@ -60,14 +60,11 @@ ul{
   list-style-type: none;
   width: 400px;
 }
- li{
-   padding: 20px;
-   background-image:  ;
- }
 
-LabelImportantRoundedIcon{
-   width: 2em;
- }
+li{
+  padding: 20px;
+  background-image:  ;
+}
 
 label{
   position: absolute;

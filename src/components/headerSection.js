@@ -1,5 +1,6 @@
 import React from 'react';
 import mypicture from '../mediaFiles/Chandra Kiran.jpeg';
+import HeaderContent from './headerContent';
 import LabelImportantRoundedIcon from '@material-ui/icons/LabelImportantRounded';
 import '../App.css';
 
@@ -14,13 +15,7 @@ const HeaderSection = () =>{
                         </td>
                         <td>
                             <div>
-                                <ul>
-                                    <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>ABOUT ME</label></li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROFESSIONAL SUMMARY</label></li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>TECHNOLOGICAL EXPERTISE</label></li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>PROJECTS HANDLED</label></li>
-                                    <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><label>CONTACT ME</label></li>
-                                </ul>
+                                <HeaderContent />
                             </div>
                         </td>
                     </tr>
