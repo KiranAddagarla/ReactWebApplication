@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactWebApplication/static/css/main.78d7c5d2.chunk.css",
-    "main.js": "/ReactWebApplication/static/js/main.daad1e48.chunk.js",
-    "main.js.map": "/ReactWebApplication/static/js/main.daad1e48.chunk.js.map",
+    "main.css": "/ReactWebApplication/static/css/main.a0a7c467.chunk.css",
+    "main.js": "/ReactWebApplication/static/js/main.edfc520d.chunk.js",
+    "main.js.map": "/ReactWebApplication/static/js/main.edfc520d.chunk.js.map",
     "runtime-main.js": "/ReactWebApplication/static/js/runtime-main.2f41185e.js",
     "runtime-main.js.map": "/ReactWebApplication/static/js/runtime-main.2f41185e.js.map",
     "static/js/2.341bf868.chunk.js": "/ReactWebApplication/static/js/2.341bf868.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3026b257.chunk.js": "/ReactWebApplication/static/js/3.3026b257.chunk.js",
     "static/js/3.3026b257.chunk.js.map": "/ReactWebApplication/static/js/3.3026b257.chunk.js.map",
     "index.html": "/ReactWebApplication/index.html",
-    "static/css/main.78d7c5d2.chunk.css.map": "/ReactWebApplication/static/css/main.78d7c5d2.chunk.css.map",
+    "static/css/main.a0a7c467.chunk.css.map": "/ReactWebApplication/static/css/main.a0a7c467.chunk.css.map",
     "static/js/2.341bf868.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.341bf868.chunk.js.LICENSE.txt",
     "static/media/Chandra Kiran.0c176802.jpeg": "/ReactWebApplication/static/media/Chandra Kiran.0c176802.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2f41185e.js",
     "static/js/2.341bf868.chunk.js",
-    "static/css/main.78d7c5d2.chunk.css",
-    "static/js/main.daad1e48.chunk.js"
+    "static/css/main.a0a7c467.chunk.css",
+    "static/js/main.edfc520d.chunk.js"
   ]
 }
