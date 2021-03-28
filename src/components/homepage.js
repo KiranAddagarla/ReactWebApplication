@@ -6,7 +6,7 @@ import '../App.css';
 
 const HomePage = () =>{  
     return (
-      <div>
+      <div className = 'homePage'>
           <HeaderSection />
           <AboutMe />          
       </div>  
