@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderSection from './headerSection'
+import AboutMe from './aboutMe';
 import '../App.css';
 
 
