@@ -36,9 +36,9 @@ label{
 
 .AboutMeContainer{
   background-color: black;
+  padding: 50px;
   width: 100%;
   height: 100px;
-  height: auto;
 }
 .AboutMeContainer p{
   font-size: large;
@@ -48,5 +48,5 @@ label{
   background-color: wheat;
   padding: 40px;
   border-style: dotted;
-  border-color: white;
+  border-color: black;
 }
