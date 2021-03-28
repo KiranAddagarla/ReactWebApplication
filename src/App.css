@@ -1,6 +1,6 @@
 
 .headerSection {
-  background-color: wheat;
+  background-color: black;
   padding: 50px;
   width: 100%;
 
@@ -35,12 +35,18 @@ label{
 }
 
 .AboutMeContainer{
+  background-color: black;
   width: 100%;
+  height: 100px;
   height: auto;
-  position: fixed;
 }
 .AboutMeContainer p{
+  font-size: large;
+  font-style: italic;
+  font-family: auto;
+  font-variant: common-ligatures;
+  background-color: wheat;
   padding: 40px;
   border-style: dotted;
-  border-color: black;
+  border-color: white;
 }
