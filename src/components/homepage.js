@@ -7,7 +7,11 @@ const HomePage = () =>{
     return (
       <div>
           <HeaderSection />
-          
+          <AboutMe />
+          {/* <ProfessionalSummary />
+          <TechnologicalExpertise />
+          <ProjectsHandled />
+          <ContactMe /> */}
           
       </div>  
     )

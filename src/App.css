@@ -72,3 +72,13 @@ label{
   font-size: larger;
 }
 
+.AboutMeContainer{
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.AboutMeContainer p{
+  padding: 40px;
+  border-style: dotted;
+  border-color: black;
+}

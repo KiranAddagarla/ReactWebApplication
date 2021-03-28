@@ -4,7 +4,7 @@ import '../App.css';
 
 const HeaderContent = () => {
     return(
-        <ul>s
+        <ul>
             <li> <LabelImportantRoundedIcon></LabelImportantRoundedIcon><a href = '#' ><label>ABOUT ME</label></a></li>
             <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a href = '#'><label>PROFESSIONAL SUMMARY</label></a></li>
             <li><LabelImportantRoundedIcon></LabelImportantRoundedIcon><a href = '#'><label>TECHNOLOGICAL EXPERTISE</label></a></li>
