@@ -57,9 +57,8 @@ label{
 .AboutMeContainer h3{
   padding: 30px;
   color: wheat;
-  align-content: flex-end; */
   text-align: center;
-  text-decoration: underline; */
+  text-decoration: underline; 
   font-size: larger;
 }
 }
