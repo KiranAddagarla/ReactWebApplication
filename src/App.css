@@ -1,6 +1,8 @@
 
 .homePage {
   background-color: black;
+  position: absolute;
+  margin: 50px;
 }
 
 .headerSection {
