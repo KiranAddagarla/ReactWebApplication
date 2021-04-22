@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactWebApplication/static/css/main.2113b01b.chunk.css",
+    "main.css": "/ReactWebApplication/static/css/main.ea1455b2.chunk.css",
     "main.js": "/ReactWebApplication/static/js/main.26868655.chunk.js",
     "main.js.map": "/ReactWebApplication/static/js/main.26868655.chunk.js.map",
     "runtime-main.js": "/ReactWebApplication/static/js/runtime-main.b31de442.js",
@@ -12,7 +12,7 @@
     "static/js/3.56f96c15.chunk.js.map": "/ReactWebApplication/static/js/3.56f96c15.chunk.js.map",
     "index.html": "/ReactWebApplication/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/ReactWebApplication/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2113b01b.chunk.css.map": "/ReactWebApplication/static/css/main.2113b01b.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/ReactWebApplication/static/css/main.ea1455b2.chunk.css.map",
     "static/js/2.70b5a918.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.70b5a918.chunk.js.LICENSE.txt",
     "static/media/Chandra Kiran.0c176802.jpeg": "/ReactWebApplication/static/media/Chandra Kiran.0c176802.jpeg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b31de442.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.70b5a918.chunk.js",
-    "static/css/main.2113b01b.chunk.css",
+    "static/css/main.ea1455b2.chunk.css",
     "static/js/main.26868655.chunk.js"
   ]
 }
