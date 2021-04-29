@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import HomePage from "./Components/HomePage";
+import FeedbackForm from "./Components/FeedBack";
+import ContactMe from "./Components/ContactMe";
+import { BrowserRouter, Route } from 'react-router-dom';
 
-
-class App extends Component {
-  render() {
+const App = () => {
     return (
-      <div className="container-fluid">
-        <h11>Start from scratch</h11>
-      </div>
+        <BrowserRouter>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/feedback" exact component={FeedbackForm} />
+            <Route path="/contactme" exact component={ContactMe} />
+        </BrowserRouter>
     );
-  }
-}
+};
 
 export default App;
