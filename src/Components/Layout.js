@@ -4,25 +4,18 @@ import { Link } from 'react-router-dom';
 const Layout = (children) => {
     return (
         <React.Fragment>
-             <nav className="navbar nabvar-default">
-                <div className="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">KiranAddagarla</a>
-                    </div>
-                    <ul className="nav navbar-nav navbar-right">
-                        <li className="nav-item p-3">
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li className="nav-item p-3">
-                            <Link to="/feedback">Feedback</Link>
-                        </li>
-                        <li className="nav-item p-3">
-                            <Link to="/contactme">Contact Me</Link>
-                        </li>
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">KiranAddagarla</a>
+                  <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
                     </ul>
+                  </div>
                 </div>
-            </nav>
-            <div className="container">{children}</div>
+              </nav>
         </React.Fragment>
     )
 }
