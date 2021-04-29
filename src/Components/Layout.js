@@ -25,3 +25,5 @@ const Layout = (children) => {
         </React.Fragment>
     )
 }
+
+export default Layout;
