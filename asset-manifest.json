@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/ReactWebApplication/static/js/main.78460c21.chunk.js",
-    "main.js.map": "/ReactWebApplication/static/js/main.78460c21.chunk.js.map",
+    "main.js": "/ReactWebApplication/static/js/main.34d20ca9.chunk.js",
+    "main.js.map": "/ReactWebApplication/static/js/main.34d20ca9.chunk.js.map",
     "runtime-main.js": "/ReactWebApplication/static/js/runtime-main.052cb47a.js",
     "runtime-main.js.map": "/ReactWebApplication/static/js/runtime-main.052cb47a.js.map",
-    "static/js/2.73c43a37.chunk.js": "/ReactWebApplication/static/js/2.73c43a37.chunk.js",
-    "static/js/2.73c43a37.chunk.js.map": "/ReactWebApplication/static/js/2.73c43a37.chunk.js.map",
+    "static/js/2.6e7a7a5f.chunk.js": "/ReactWebApplication/static/js/2.6e7a7a5f.chunk.js",
+    "static/js/2.6e7a7a5f.chunk.js.map": "/ReactWebApplication/static/js/2.6e7a7a5f.chunk.js.map",
     "index.html": "/ReactWebApplication/index.html",
-    "static/js/2.73c43a37.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.73c43a37.chunk.js.LICENSE.txt"
+    "static/js/2.6e7a7a5f.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.6e7a7a5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.052cb47a.js",
-    "static/js/2.73c43a37.chunk.js",
-    "static/js/main.78460c21.chunk.js"
+    "static/js/2.6e7a7a5f.chunk.js",
+    "static/js/main.34d20ca9.chunk.js"
   ]
 }
