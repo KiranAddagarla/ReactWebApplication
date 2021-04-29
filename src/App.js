@@ -6,8 +6,8 @@ import HomePage from './components/homepage';
 class App extends Component {
   render() {
     return (
-      <div>
-        <HomePage />
+      <div className="container-fluid">
+        <h11>Start from scratch</h11>
       </div>
     );
   }
