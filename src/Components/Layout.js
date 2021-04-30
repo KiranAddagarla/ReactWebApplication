@@ -1,7 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Layout = (children) => {
+const Layout = (props) => {
+
+    const headerButtonMap = props.headerButtons;
+
+    const headerButtons =  headerButtonMap.map((headerButton) => {
+        return
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href={`${headerButton.href}`}>
+                {headerButton.buttonName}
+            </a>
+            </li>
+    });
+
   return (
     <React.Fragment>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,26 +37,7 @@ const Layout = (children) => {
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
+              {headerButtons}
             </ul>
           </div>
         </div>
