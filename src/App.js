@@ -9,19 +9,19 @@ import Layout from './Components/Layout';
 const headerButtonsMap = [
     {
       buttonName: "Home",
-      href : "/"
+      href : "#HomeContainer"
     },
     {
       buttonName: "Portfolio",
-      href : "/portfolio"
+      href : "#portfolioContainer"
     },
     {
       buttonName: "About Me",
-      href : "/aboutme"
+      href : "#aboutMeContainer"
     },
     {
       buttonName: "Contact Me",
-      href : "/contactme"
+      href : "#contactMeConatiner"
     }
   ]
 
