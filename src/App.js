@@ -10,11 +10,11 @@ import ContactMe from "./Components/ContactMe";
 const headerButtonsMap = [
     {
       buttonName: "Home",
-      href : "#HomeContainer"
+      sectionId : "HomeContainer"
     },
     {
       buttonName: "Contact Me",
-      href : "#contactMeConatiner"
+      sectionId : "contactMeConatiner"
     }
   ]
 
@@ -27,7 +27,7 @@ const App = () => {
         <Layout headerButtons={headerButtonsMap} ></Layout>
         <HomePage />
         <ContactMe />
-      /</React.Fragment> 
+      </React.Fragment> 
       )
 };
 

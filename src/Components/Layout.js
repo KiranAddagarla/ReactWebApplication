@@ -1,4 +1,5 @@
 import React from "react";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 
 const Layout = (props) => {
@@ -8,9 +9,14 @@ const Layout = (props) => {
     const headerButtons =  headerButtonMap.map((headerButton) => {
         return(
             <li class="nav-item">
-                    <a class="nav-link" href={`${headerButton.href}`}>
-                {headerButton.buttonName}
-            </a>
+                <Link
+                    activeClass="active"
+                    to={headerButton.sectionId}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>{headerButton.buttonName}
+                </Link>              
             </li>
         )
     });
