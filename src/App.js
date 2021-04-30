@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './Components/Layout';
-import BodyContent from "./Components/BodyContent";
+// import BodyContent from "./Components/BodyContent";
 
 
 
@@ -27,7 +27,7 @@ const App = () => {
     return (
       <React.Fragment>
         <Layout headerButtons={headerButtonsMap} ></Layout>
-        <BodyContent ></BodyContent>  
+        {/* <BodyContent ></BodyContent>   */}
       /</React.Fragment> 
       )
 };
