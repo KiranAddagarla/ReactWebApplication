@@ -42,6 +42,14 @@ const Layout = (props) => {
           </div>
         </div>
       </nav>
+      <div data-bs-spy="scroll" data-bs-target="layout-navbar" data-bs-offset="0" tabindex="0">
+        <div id="#HomeContainer">
+          <p>Planning to Home body content here</p>
+        </div>
+        <div id="#contactMeConatiner">
+          <p>Planning to ContactMe body content here</p>
+        </div>
+      </div>
       </div>
   );
 };
