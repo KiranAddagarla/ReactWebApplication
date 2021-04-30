@@ -5,9 +5,6 @@ const Layout = (props) => {
 
     const headerButtonMap = props.headerButtons;
 
-    console.log(headerButtonMap);
-    console.log("before headerButtons");
-
     const headerButtons =  headerButtonMap.map((headerButton) => {
         return(
             <li class="nav-item">
