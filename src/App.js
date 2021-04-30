@@ -1,6 +1,7 @@
 import React from 'react';
-
 import Layout from './Components/Layout';
+import HomePage from './components/homepage';
+import ContactMe from "./Components/ContactMe";
 
 
 
@@ -23,9 +24,9 @@ const App = () => {
   
     return (
       <React.Fragment>
-        <Layout headerButtons={headerButtonsMap} >
-        </Layout>
-        
+        <Layout headerButtons={headerButtonsMap} ></Layout>
+        <HomePage />
+        <ContactMe />
       /</React.Fragment> 
       )
 };
