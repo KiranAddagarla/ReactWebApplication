@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './Components/Layout';
-// import BodyContent from "./Components/BodyContent";
+import BodyContent from "./Components/BodyContent";
 
 
 
