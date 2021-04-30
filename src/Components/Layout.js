@@ -5,13 +5,17 @@ const Layout = (props) => {
 
     const headerButtonMap = props.headerButtons;
 
+    console.log(headerButtonMap);
+    console.log("before headerButtons");
+
     const headerButtons =  headerButtonMap.map((headerButton) => {
-        return
+        return(
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href={`${headerButton.href}`}>
                 {headerButton.buttonName}
             </a>
             </li>
+        )
     });
 
   return (
