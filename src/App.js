@@ -1,9 +1,7 @@
 import React from 'react';
 import Layout from './Components/Layout';
-// import HomePage from "./Components/HomePage";
-// import FeedBack from "./Components/FeedBack";
-// import ContactMe from "./Components/ContactMe";
-// import { BrowserRouter, Route } from 'react-router-dom';
+import Body from "./Components/BodyContent";
+
 
 
 const headerButtonsMap = [
@@ -27,8 +25,11 @@ const headerButtonsMap = [
 
 const App = () => {
     return (
-        <Layout headerButtons={headerButtonsMap}/>
-    );
+      <React.Fragment>
+        <Layout headerButtons={headerButtonsMap} ></Layout>
+        <Body ></Body>  
+      /</React.Fragment> 
+      )
 };
 
 export default App;

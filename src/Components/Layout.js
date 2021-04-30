@@ -40,7 +40,7 @@ const Layout = (props) => {
             class="justify-content-end collapse navbar-collapse"
             id="navbarSupportedContent" >
                 <ul class="nav nav-pills">
-                    
+                    {headerButtons}
                 </ul>
           </div>
         </div>
