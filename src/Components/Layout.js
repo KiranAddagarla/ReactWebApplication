@@ -1,4 +1,5 @@
 import React from "react";
+import BodyContent from "./BodyContent";
 
 
 const Layout = (props) => {
@@ -42,6 +43,7 @@ const Layout = (props) => {
           </div>
         </div>
       </nav>
+      <BodyContent ></BodyContent>
     </React.Fragment>
   );
 };
