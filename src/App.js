@@ -24,6 +24,7 @@ const headerButtonsMap = [
   ]
 
 const App = () => {
+  console.log ("added react fragment to body content")
     return (
       <React.Fragment>
         <Layout headerButtons={headerButtonsMap} ></Layout>
