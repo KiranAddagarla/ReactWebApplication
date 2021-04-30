@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './Components/Layout';
-//import BodyContent from "./Components/BodyContent";
+
 
 
 
@@ -15,8 +15,10 @@ const headerButtonsMap = [
     }
   ]
 
+  console.log ("Removed all the comments in files and moved body to layout");
+  
 const App = () => {
-  console.log ("added react fragment to body content")
+  
     return (
       <React.Fragment>
         <Layout headerButtons={headerButtonsMap} ></Layout>

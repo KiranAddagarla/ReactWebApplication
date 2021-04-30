@@ -1,8 +1,12 @@
 import React from "react";
 
 const HomeBackground = () =>{
-    console.log("in HomeBackground js file")
-
+    return (
+        <div>
+            In the Home Background Js File
+        </div>
+    );
+    
 }
 
 export default HomeBackground;
