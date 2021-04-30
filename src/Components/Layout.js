@@ -1,3 +1,4 @@
+import { Height } from "@material-ui/icons";
 import React from "react";
 
 
@@ -43,10 +44,10 @@ const Layout = (props) => {
         </div>
       </nav>
       <div data-bs-spy="scroll" data-bs-target="layout-navbar" data-bs-offset="0" tabindex="0">
-        <div id="#HomeContainer">
+        <div id="#HomeContainer" style={{height: "100vh", width: "100vh", justifyContent:"center"}}>
           <p>Planning to Home body content here</p>
         </div>
-        <div id="#contactMeConatiner">
+        <div id="#contactMeConatiner"style={{height: "100vh", width: "100vh", justifyContent: "center"}}>
           <p>Planning to ContactMe body content here</p>
         </div>
       </div>
