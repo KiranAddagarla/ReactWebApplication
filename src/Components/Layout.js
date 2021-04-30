@@ -1,5 +1,4 @@
 import React from "react";
-import BodyContent from "./BodyContent";
 
 
 const Layout = (props) => {
@@ -17,7 +16,7 @@ const Layout = (props) => {
     });
 
   return (
-    <React.Fragment>
+    <div>
       <nav id="layout-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#HomeContainer">
@@ -43,8 +42,7 @@ const Layout = (props) => {
           </div>
         </div>
       </nav>
-      <BodyContent ></BodyContent>
-    </React.Fragment>
+      </div>
   );
 };
 
