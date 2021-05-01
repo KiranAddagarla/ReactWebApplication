@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ReactWebApplication/static/css/main.ab3fa9a9.chunk.css",
-    "main.js": "/ReactWebApplication/static/js/main.9617bb4b.chunk.js",
-    "main.js.map": "/ReactWebApplication/static/js/main.9617bb4b.chunk.js.map",
+    "main.css": "/ReactWebApplication/static/css/main.44ee6344.chunk.css",
+    "main.js": "/ReactWebApplication/static/js/main.def83755.chunk.js",
+    "main.js.map": "/ReactWebApplication/static/js/main.def83755.chunk.js.map",
     "runtime-main.js": "/ReactWebApplication/static/js/runtime-main.052cb47a.js",
     "runtime-main.js.map": "/ReactWebApplication/static/js/runtime-main.052cb47a.js.map",
     "static/js/2.26cc55f0.chunk.js": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js",
     "static/js/2.26cc55f0.chunk.js.map": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js.map",
     "index.html": "/ReactWebApplication/index.html",
-    "static/css/main.ab3fa9a9.chunk.css.map": "/ReactWebApplication/static/css/main.ab3fa9a9.chunk.css.map",
+    "static/css/main.44ee6344.chunk.css.map": "/ReactWebApplication/static/css/main.44ee6344.chunk.css.map",
     "static/js/2.26cc55f0.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ReactWebApplication/static/media/primary-background.6ff2d4d0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.052cb47a.js",
     "static/js/2.26cc55f0.chunk.js",
-    "static/css/main.ab3fa9a9.chunk.css",
-    "static/js/main.9617bb4b.chunk.js"
+    "static/css/main.44ee6344.chunk.css",
+    "static/js/main.def83755.chunk.js"
   ]
 }
