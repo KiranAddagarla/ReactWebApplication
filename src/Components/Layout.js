@@ -16,7 +16,7 @@ const Layout = (props) => {
           to={headerButton.sectionId}
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration={500}
         >
           {headerButton.buttonName}
