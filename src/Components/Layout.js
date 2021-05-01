@@ -10,7 +10,7 @@ const Layout = (props) => {
 
   const headerButtons = headerButtonMap.map((headerButton) => {
     return (
-      <li className="nav-item p-10">
+      <li className="nav-item p-5">
         <Link
           activeClass="active"
           to={headerButton.sectionId}
@@ -47,8 +47,8 @@ const Layout = (props) => {
             KiranAddagarla
             </a>
         </div>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="justify-content-end nav navbar-nav">{headerButtons}</ul>
+        <div className="float-right collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className=" nav navbar-nav">{headerButtons}</ul>
         </div>
       </div>
     </nav>
