@@ -1,56 +1,57 @@
 import React from "react";
-import {Link, animateScroll as scroll} from "react-scroll";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Layout = (props) => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    };
+  const headerButtonMap = props.headerButtons;
 
-    const headerButtonMap = props.headerButtons;
-
-    const headerButtons =  headerButtonMap.map((headerButton) => {
-        return(
-            <li class="nav-item">
-                <Link
-                    activeClass="active"
-                    to={headerButton.sectionId}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>{headerButton.buttonName}
-                </Link>              
-            </li>
-        )
-    });
+  const headerButtons = headerButtonMap.map((headerButton) => {
+    return (
+      <li className="nav-item">
+        <Link
+          activeClass="active"
+          to={headerButton.sectionId}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          {headerButton.buttonName}
+        </Link>
+      </li>
+    );
+  });
 
   return (
-      <nav id="layout-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#HomeContainer" onClick={scrollToTop}>
-            KiranAddagarla
-          </a>
-          <button
-            class="navbar-toggler"
+    <nav
+      id="layout-navbar"
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <div className="container-fluid">
+        <div>
+            <button
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="justify-content-end collapse navbar-collapse"
-            id="navbarSupportedContent" >
-                <ul class="nav nav-pills">
-                    {headerButtons}
-                </ul>
-          </div>
+            >
+            <span className="navbar-toggler-icon"></span>
+            </button>
+            <a className="navbar-brand" href="#HomeContainer" onClick={scrollToTop}>
+            KiranAddagarla
+            </a>
         </div>
-      </nav>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="nav navbar-nav navbar-right">{headerButtons}</ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 
