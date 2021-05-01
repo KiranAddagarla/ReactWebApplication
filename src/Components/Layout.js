@@ -43,7 +43,7 @@ const Layout = (props) => {
             >
             <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand navigation-bar" href="#HomeContainer" onClick={scrollToTop}>
+            <a className="navbar-brand navigation-bar-logo" href="#HomeContainer" onClick={scrollToTop}>
             KiranAddagarla
             </a>
         </div>

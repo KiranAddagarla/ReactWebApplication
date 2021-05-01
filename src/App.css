@@ -23,7 +23,11 @@
     background-color: rgb(213, 225, 226);
 }
 
-.navigation-bar:hover{
+.navigation-bar:hover,:active{
     background-color: whitesmoke;
     color: black;
+}
+
+.navigation-bar-logo:hover{
+    background-color: black;
 }
