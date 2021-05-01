@@ -5,9 +5,6 @@ import ContactMe from "./Components/ContactMe";
 import "./App.css";
 
 
-
-
-
 const headerButtonsMap = [
     {
       buttonName: "Home",
@@ -19,8 +16,6 @@ const headerButtonsMap = [
     }
   ]
 
-  console.log ("Moved the body content to app and modified to not have any scroll functions");
-  
 const App = () => {
   
     return (
