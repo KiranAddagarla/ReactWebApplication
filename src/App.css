@@ -23,7 +23,7 @@
     background-color: rgb(213, 225, 226);
 }
 
-.navigation-bar:{
-    background: transparent;
-    height: fit-content;
+.navigation-bar:hover{
+    background-color: whitesmoke;
+    color: black;
 }

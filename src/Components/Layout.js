@@ -10,7 +10,7 @@ const Layout = (props) => {
 
   const headerButtons = headerButtonMap.map((headerButton) => {
     return (
-      <li className="nav-item p-2">
+      <li className="nav-item p-2 navigation-bar">
         <Link
           activeClass="active"
           to={headerButton.sectionId}
@@ -43,7 +43,7 @@ const Layout = (props) => {
             >
             <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="#HomeContainer" onClick={scrollToTop}>
+            <a className="navbar-brand navigation-bar" href="#HomeContainer" onClick={scrollToTop}>
             KiranAddagarla
             </a>
         </div>
