@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
     return(
-        <div id="HomeContainer" style={{height: "100vh", width: "100vh"}}>
+        <div id="HomeContainer" className="primary-section-container">
             Home Page Content
         </div>
     ) 

@@ -4,6 +4,10 @@ import {Link, animateScroll as scroll} from "react-scroll";
 
 const Layout = (props) => {
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     const headerButtonMap = props.headerButtons;
 
     const headerButtons =  headerButtonMap.map((headerButton) => {
@@ -22,10 +26,9 @@ const Layout = (props) => {
     });
 
   return (
-    <div>
       <nav id="layout-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#HomeContainer">
+          <a class="navbar-brand" href="#HomeContainer" onClick={scrollToTop}>
             KiranAddagarla
           </a>
           <button
@@ -48,7 +51,6 @@ const Layout = (props) => {
           </div>
         </div>
       </nav>
-      </div>
   );
 };
 

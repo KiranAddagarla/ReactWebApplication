@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Components/Layout';
 import HomePage from './components/homepage';
 import ContactMe from "./Components/ContactMe";
+import "./App.css";
 
 
 
