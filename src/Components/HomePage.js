@@ -4,7 +4,7 @@ import CloudinaryAPIService from "../APIComponents/CloudinaryAPIService";
 
 const HomePage = () => {
 
-    const profileUrl = CloudinaryAPIService.get("kiranaddagarla_personal_profile_image.jpg");
+    const profileUrl = await CloudinaryAPIService.get("kiranaddagarla_personal_profile_image.jpg");
 
     useEffect (()=>{
 
