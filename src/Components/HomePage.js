@@ -6,7 +6,7 @@ const HomePage = () => {
 
     const [profileImage, setProfileImage] = useState(null)   ;
 
-    useEffect (()=>{
+    useEffect ( async () =>{
         const profileUrl = await CloudinaryAPIService.get("kiranaddagarla_personal_profile_image.jpg");
         setProfileImage(profileUrl);
     },[])
