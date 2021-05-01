@@ -28,7 +28,7 @@ const Layout = (props) => {
   return (
     <nav
       id="layout-navbar"
-      className="navbar navbar-expand-lg fixed-top navbar-light bg-light"
+      className="navbar navbar-expand-md bg-secondary navbar-dark"
     >
       <div className="container-fluid">
         <div>
