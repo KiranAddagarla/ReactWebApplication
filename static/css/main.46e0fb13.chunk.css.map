@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,2BACI,YAAa,CACb,UAAW,CACX,wBACJ","file":"main.46e0fb13.chunk.css","sourcesContent":[".primary-section-container{\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-color: #8c8c8c;\r\n}\r\n"]}
