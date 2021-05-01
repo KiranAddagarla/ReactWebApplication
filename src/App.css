@@ -1,7 +1,16 @@
+.home-background{
+    background: url(../src/MediaFiles/primary-background.jpg);
+    height: 100%;
+    width: 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+
 .primary-section-container{
     height: 100vh;
     width: 100%;
-    background: url(../src/MediaFiles/primary-background.jpg);
 }
 .secondary-section-container{
     height: 100vh;
