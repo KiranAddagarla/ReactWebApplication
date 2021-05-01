@@ -14,7 +14,7 @@ const HomePage = () => {
     return(
         <div id="HomeContainer" className="d-flex justify-content-center primary-section-container home-background">
             <div className="align-self-center">
-                <img src={profileUrl} className="profile-image" alt="Kiran's Profle"></img>
+                <img src={profileImage} className="profile-image" alt="Kiran's Profle"></img>
             </div>
         </div>
     ) 
