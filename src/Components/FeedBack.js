@@ -1,13 +1,15 @@
 import React from "react";
-import Layout from "./Layout";
+
 
 const FeedBack = () => {
    
-        <Layout>
-            <div>
-                FeedBack Content
+    return (
+        <div id="feedbackConatiner" className="d-flex justify-content-center secondary-section-container">
+            <div className="align-self-center">
+                FeedBack Page Content
             </div>
-        </Layout>
+        </div>
+        )
    
 }
 

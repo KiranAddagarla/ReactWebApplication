@@ -3,6 +3,8 @@ import Layout from './Components/Layout';
 import HomePage from './components/homepage';
 import ContactMe from "./Components/ContactMe";
 import "./App.css";
+import Portfolio from './Components/Portfolio';
+import FeedBack from "./Components/FeedBack";
 
 
 const headerButtonsMap = [
@@ -11,8 +13,15 @@ const headerButtonsMap = [
       sectionId : "HomeContainer"
     },
     {
+      buttonName: "Portfolio",
+      sectionId : "portfolioConatiner"
+    },
+    {
       buttonName: "Contact Me",
       sectionId : "contactMeConatiner"
+    },{
+      buttonName: "Feedback",
+      sectionId : "feedbackConatiner"
     }
   ]
 
@@ -22,7 +31,9 @@ const App = () => {
       <React.Fragment>
         <Layout headerButtons={headerButtonsMap} ></Layout>
         <HomePage />
+        <Portfolio />
         <ContactMe />
+        <FeedBack />
       </React.Fragment> 
       )
 };
