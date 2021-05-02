@@ -2,12 +2,12 @@ import React from "react";
 
 const Carosol = () => {
     return(
-        <div id="carouselExampleIndicators" className="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div id="demo" className="carousel slide">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://res.cloudinary.com/dz6oeh4ym/image/upload/v1619882372/kiranaddagarla_personal_profile_image.jpg" className="profile-image" alt="Kiran's Profle"></img>
