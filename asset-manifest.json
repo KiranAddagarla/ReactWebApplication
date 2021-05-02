@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactWebApplication/static/css/main.31be9a0d.chunk.css",
+    "main.css": "/ReactWebApplication/static/css/main.d88e76e3.chunk.css",
     "main.js": "/ReactWebApplication/static/js/main.3eb16af1.chunk.js",
     "main.js.map": "/ReactWebApplication/static/js/main.3eb16af1.chunk.js.map",
     "runtime-main.js": "/ReactWebApplication/static/js/runtime-main.052cb47a.js",
@@ -8,14 +8,14 @@
     "static/js/2.26cc55f0.chunk.js": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js",
     "static/js/2.26cc55f0.chunk.js.map": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js.map",
     "index.html": "/ReactWebApplication/index.html",
-    "static/css/main.31be9a0d.chunk.css.map": "/ReactWebApplication/static/css/main.31be9a0d.chunk.css.map",
+    "static/css/main.d88e76e3.chunk.css.map": "/ReactWebApplication/static/css/main.d88e76e3.chunk.css.map",
     "static/js/2.26cc55f0.chunk.js.LICENSE.txt": "/ReactWebApplication/static/js/2.26cc55f0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ReactWebApplication/static/media/myapplication-home-background.310f40b0.jpg"
+    "static/media/App.css": "/ReactWebApplication/static/media/primary-background.fa56dbb6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.052cb47a.js",
     "static/js/2.26cc55f0.chunk.js",
-    "static/css/main.31be9a0d.chunk.css",
+    "static/css/main.d88e76e3.chunk.css",
     "static/js/main.3eb16af1.chunk.js"
   ]
 }
